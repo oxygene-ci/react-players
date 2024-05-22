@@ -5,6 +5,7 @@ import { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Carousel from 'react-bootstrap/Carousel';
+import Figure from 'react-bootstrap/Figure';
 
 function Main(props) {
     const [key, setKey] = useState('home');
@@ -88,6 +89,124 @@ function Main(props) {
                         />
                     </Carousel.Item>
                 </Carousel>
+            </div>
+            <div className="container">
+                <div className="row blog">
+                    <div className="col-md-12">
+                        <div id="blogCarousel" className="carousel slide" data-ride="carousel">
+                            <ol className="carousel-indicators">
+                                <li data-target="#blogCarousel" data-slide-to="0" className="active"></li>
+                                <li data-target="#blogCarousel" data-slide-to="1"></li>
+                            </ol>
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <div className="row">
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                        </div>
+                                    </div>    
+                                </div>
+                                <div className="carousel-item">
+                                    <div className="row">
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                 <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                 <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                 <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                            </a>
+                                        </div>
+                                        <div className="col-md-3">
+                                            <a href="#">
+                                                 <a href="#">
+                                                <Figure>
+                                                    <Figure.Image
+                                                        width={500}
+                                                        height={500}
+                                                        src={require('../assets/Image1.png')}
+                                                    />
+                                                </Figure>
+                                            </a>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

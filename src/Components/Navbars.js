@@ -29,11 +29,17 @@ function Navbars({ page }) {
     return (
         <Navbar expand="lg" className="bg-body-tertiary" fixed='top'>
             <Container fluid>
-                <Navbar.Brand href="#" className="mx-5"><span style={{ color: 'blue' }}>OXYGENE</span> <span style={{ color: 'orange' }}>CI</span></Navbar.Brand>
+                <Navbar.Brand href="Home" >
+                    <div className='text-center'>
+                        <span className='oxygene text-primary'>OXYGENE </span>
+                        <span className='ci text-warning'>CI</span>
+                    </div>
+                    <h6 className='slogan text-center text-muted'>Développeur et intégrateur de solutions</h6>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="mx-auto my-2 my-lg-3"
+                        className="mx-auto my-2 my-lg-0"
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
