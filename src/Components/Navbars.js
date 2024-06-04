@@ -29,18 +29,18 @@ function Navbars({ page }) {
     return (
         <Navbar expand="lg" className="bg-body-tertiary" fixed='top'>
             <Container fluid>
-                <Navbar.Brand href="Home" >
-                    <div className='text-center'>
-                        <span className='oxygene text-primary'>OXYGENE </span>
-                        <span className='ci text-warning'>CI</span>
+                <Navbar.Brand href="Home" style={{ borderRightColor: 'Gray',  borderRightStyle: 'solid' }}>
+                    <div className='text-center p-3'>
+                        <span className='oxygene text-primary p-2'><b>OXYGENE</b></span>
+                        <span className='ci text-warning'><b>CI</b></span>
                     </div>
-                    <h6 className='slogan text-center text-muted'>Développeur et intégrateur de solutions</h6>
+                        {/* <h6 className='slogan text-center text-muted'>Développeur et intégrateur de solutions</h6> */}
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
-                        className="mx-auto my-2 my-lg-0"
-                        style={{ maxHeight: '100px' }}
+                        className="me-auto my-0 my-lg-2 text-uppercase"
+                        style={{ maxHeight: '100px'}}
                         navbarScroll
                     >
                         <Nav.Link as={Link} to={"/"} active >
@@ -50,12 +50,13 @@ function Navbars({ page }) {
                                 onMouseEnter={() => Survoler("accueil")}
                                 onMouseLeave={() => NoSurvoler()}
                             >
-                                Accueil
+                                <b>Accueil</b>
                             </span>
                         </Nav.Link>
                         <Nav.Link
                             as={Link} to={"/about"}
                             active
+                            
                         >
                             <span
 
@@ -63,11 +64,11 @@ function Navbars({ page }) {
                                 onMouseEnter={() => Survoler("a_propos")}
                                 onMouseLeave={() => NoSurvoler()}
                             >
-                                A propos de nous
+                                <b>A propos de nous</b>
                             </span>
 
                         </Nav.Link>
-                        <NavDropdown title="Nos produits" active id="navbarScrollingDropdown">
+                        <NavDropdown title="Nos produits" active id="navbarScrollingDropdown" style={{ fontWeight: 'normal'}}>
                             <NavDropdown.Item
                                 as={Link} to={"/affichage_dynamique"}
                             >
@@ -130,7 +131,7 @@ function Navbars({ page }) {
                                 onMouseEnter={() => Survoler("contact")}
                                 onMouseLeave={() => NoSurvoler()}
                             >
-                               Contact
+                                <b>Contact</b>
                             </span>
                         </Nav.Link>
                     </Nav>
