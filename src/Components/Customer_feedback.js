@@ -10,8 +10,8 @@ function Customer_feedback(props) {
             <Navbars />
             <Row className="pt-5 m-5">
                 <Col sm={5}>
-                    <h1 className="font-weight-light">Customer Feedback</h1>
-                    <p className="mt-4">Le customer feedback est un module interactif permettant de collecter le taux de satisfaction client.<br />
+                    <h1 className="font-weight-light">ENQUETE DE SATISFACTION</h1>
+                    <p className="mt-4">L'enquête de satisfaction est un module interactif permettant de collecter le taux de satisfaction client.<br />
 
                         AVANTAGES<br />
                         - Il peut aider à améliorer un produit ou service<br />

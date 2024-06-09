@@ -15,7 +15,7 @@ function Gfa(props) {
                         <Carousel.Item data-bs-interval="5">
                             <img
                                 className="image d-block"
-                                src={require('../assets/customer_feedback.jpg')}
+                                src={require('../assets/A_D_3.jpeg')}
                                 fluid rounded
                                 style={{ height: 500, width: 750 }}
                             />
@@ -23,7 +23,7 @@ function Gfa(props) {
                         <Carousel.Item data-bs-interval="5">
                             <img
                                 className="image d-block"
-                                src={require('../assets/customer_2.jpg')}
+                                src={require('../assets/img___5.jpeg')}
                                 fluid rounded
                                 style={{ height: 500, width: 750 }}
                             />
@@ -31,7 +31,7 @@ function Gfa(props) {
                     </Carousel>
                 </Col>
                 <Col sm={5}>
-                    <h1 className="font-weight-light">Gestion de file d'attente</h1>
+                    <h1 className="font-weight-light">GESTION DE FILE D'ATTENTE</h1>
                     <p className="mt-4">
                         Gestion de file d'attente
                         La gestion de file d'attente est un outil qui vous permet de gérer une file d'attente et d'accroître la qualité de votre service client.

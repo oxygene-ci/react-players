@@ -31,8 +31,8 @@ function Navbars({ page }) {
             <Container fluid>
                 <Navbar.Brand href="Home" style={{ borderRightColor: 'Gray',  borderRightStyle: 'solid' }}>
                     <div className='text-center p-3'>
-                        <span className='oxygene text-primary p-2'><b>OXYGENE</b></span>
-                        <span className='ci text-warning'><b>CI</b></span>
+                        <span className='oxygene text-primary p-2'><b style={{ fontSize: '30px', fontWeight:'bold'}}>OXYGENE</b></span>
+                        <span className='ci text-warning'><b style={{ fontSize: '30px', fontWeight: 'bold'}}>CI</b></span>
                     </div>
                         {/* <h6 className='slogan text-center text-muted'>Développeur et intégrateur de solutions</h6> */}
                 </Navbar.Brand>
@@ -68,7 +68,7 @@ function Navbars({ page }) {
                             </span>
 
                         </Nav.Link>
-                        <NavDropdown title="Nos produits" active id="navbarScrollingDropdown" style={{ fontWeight: 'normal'}}>
+                        <NavDropdown title="Nos solutions" active id="navbarScrollingDropdown" style={{ fontWeight: 'normal'}}>
                             <NavDropdown.Item
                                 as={Link} to={"/affichage_dynamique"}
                             >
@@ -91,7 +91,7 @@ function Navbars({ page }) {
                                     onMouseEnter={() => Survoler("customer_feedback")}
                                     onMouseLeave={() => NoSurvoler()}
                                 >
-                                    Customer feedback
+                                    Enquête de satisfaction
                                 </span>
                             </NavDropdown.Item>
                             <NavDropdown.Item

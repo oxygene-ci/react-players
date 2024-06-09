@@ -61,7 +61,7 @@ function Footer(props) {
                         <h3>Nos produits</h3>
                         <ul>
                             <li><a href="#">Affichage dynamique</a></li>
-                            <li><a href="#">Customer feedback</a></li>
+                            <li><a href="#">Enquête de satisfaction</a></li>
                             <li><a href="#">Developpement</a></li>
                             <li><a href="#">Gestion de file d'attente</a></li>
                         </ul>
@@ -87,7 +87,7 @@ function Footer(props) {
                                    Elle est constituée de techniciens et d’ingénieurs qualifiés ayant déjà fait leurs preuves dans divers domaines de l’ingénierie informatique.
                                 </p>
                     </div>
-                    <div className="col item social"><a href="#"><i className="FaFacebookF"><FaFacebookF/></i></a><a href="#"><i className="FaTwitter"><FaTwitter/></i></a><a href="#"><i className="FaGoogle"><FaGoogle/></i></a><a href="#"><i className="FaLinkedinIn"><FaLinkedinIn/></i></a></div>
+                    <div className="col item social"><a href="#"><em className="FaFacebookF"><FaFacebookF/></em></a><a href="#"><em className="FaTwitter"><FaTwitter/></em></a><a href="#"><em className="FaGoogle"><FaGoogle/></em></a><a href="#"><em className="FaLinkedinIn"><FaLinkedinIn/></em></a></div>
                 </div>
                         <p className="copyright">Copyright 2016 © OXYGENE CI. All Rights Reserved.</p>
             </div>
