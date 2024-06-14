@@ -103,7 +103,7 @@ function Navbars({ page }) {
                                     onMouseEnter={() => Survoler("developpement")}
                                     onMouseLeave={() => NoSurvoler()}
                                 >
-                                    Developpement
+                                    Developpement web et mobile
                                 </span>
                                 
                             </NavDropdown.Item>
