@@ -40,93 +40,93 @@ function Main(props) {
                 </div>
                 <br />
                 {/*  */}
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <h3 class="text-center">Zigzag Timeline Layout (and Cats)</h3>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <h3 className="text-center">Zigzag Timeline Layout (and Cats)</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                             </p>
-                            <ul class="timeline">
+                            <ul className="timeline">
                                 <li>
-                                    <div class="timeline-image">
-                                        <img class="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width:'200px'}}/>
+                                    <div className="timeline-image">
+                                        <img className="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width:'200px'}}/>
                                     </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
+                                    <div className="timeline-panel">
+                                        <div className="timeline-heading">
                                             <h4>Step One</h4>
-                                            <h4 class="subheading">Subtitle</h4>
+                                            <h4 className="subheading">Subtitle</h4>
                                         </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
+                                        <div className="timeline-body">
+                                            <p className="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="line"></div>
+                                    <div className="line"></div>
                                 </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-image">
-                                        <img class="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
+                                <li className="timeline-inverted">
+                                    <div className="timeline-image">
+                                        <img className="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
                                     </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
+                                    <div className="timeline-panel">
+                                        <div className="timeline-heading">
                                             <h4>Step Two</h4>
-                                            <h4 class="subheading">Subtitle</h4>
+                                            <h4 className="subheading">Subtitle</h4>
                                         </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
+                                        <div className="timeline-body">
+                                            <p className="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="line"></div>
+                                    <div className="line"></div>
                                 </li>
                                 <li>
-                                    <div class="timeline-image">
-                                        <img class="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
+                                    <div className="timeline-image">
+                                        <img className="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
                                     </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
+                                    <div className="timeline-panel">
+                                        <div className="timeline-heading">
                                             <h4>Step Three</h4>
-                                            <h4 class="subheading">Subtitle</h4>
+                                            <h4 className="subheading">Subtitle</h4>
                                         </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
+                                        <div className="timeline-body">
+                                            <p className="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="line"></div>
+                                    <div className="line"></div>
                                 </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-image">
-                                        <img class="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
+                                <li className="timeline-inverted">
+                                    <div className="timeline-image">
+                                        <img className="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
                                     </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
+                                    <div className="timeline-panel">
+                                        <div className="timeline-heading">
                                             <h4>Step Three</h4>
-                                            <h4 class="subheading">Subtitle</h4>
+                                            <h4 className="subheading">Subtitle</h4>
                                         </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
+                                        <div className="timeline-body">
+                                            <p className="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="line"></div>
+                                    <div className="line"></div>
                                 </li>
                                 <li>
-                                    <div class="timeline-image">
-                                        <img class="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
+                                    <div className="timeline-image">
+                                        <img className="img-circle img-responsive" src={require('../assets/Image1.png')} style={{ height: '200px', width: '200px' }} />
                                     </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
+                                    <div className="timeline-panel">
+                                        <div className="timeline-heading">
                                             <h4>Bonus Step</h4>
-                                            <h4 class="subheading">Subtitle</h4>
+                                            <h4 className="subheading">Subtitle</h4>
                                         </div>
-                                        <div class="timeline-body">
-                                            <p class="text-muted">
+                                        <div className="timeline-body">
+                                            <p className="text-muted">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                             </p>
                                         </div>
@@ -137,25 +137,25 @@ function Main(props) {
                     </div>
                 </div>
                 {/*  */}
-                <div class="container__mag center">
-                    <div class="row">
-                        <div class="col-md-2">
-                            <div class="Image__mag"> <img src={require('../assets/A_D_1.jpeg')} className='img__0' /> <i class="fa fa-search fa-3x"><FaSearch /></i> </div>
+                <div className="container__mag center">
+                    <div className="row">
+                        <div className="col-md-2">
+                            <div className="Image__mag"> <img src={require('../assets/A_D_1.jpeg')} className='img__0' /> <i className="fa fa-search fa-3x"><FaSearch /></i> </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="Image__mag"> <img src={require('../assets/img___6.jpeg')} className='img__0' /> <i class="fa fa-search fa-3x"><FaSearch /></i> </div>
+                        <div className="col-md-2">
+                            <div className="Image__mag"> <img src={require('../assets/img___6.jpeg')} className='img__0' /> <i className="fa fa-search fa-3x"><FaSearch /></i> </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="Image__mag"> <img src={require('../assets/img___15.jpeg')} className='img__0' /> <i class="fa fa-search fa-3x"><FaSearch /></i> </div>
+                        <div className="col-md-2">
+                            <div className="Image__mag"> <img src={require('../assets/img___15.jpeg')} className='img__0' /> <i className="fa fa-search fa-3x"><FaSearch /></i> </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="Image__mag"> <img src={require('../assets/A_D_2.jpeg')} className='img__0' /> <i class="fa fa-search fa-3x"><FaSearch /></i> </div>
+                        <div className="col-md-2">
+                            <div className="Image__mag"> <img src={require('../assets/A_D_2.jpeg')} className='img__0' /> <i className="fa fa-search fa-3x"><FaSearch /></i> </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="Image__mag"> <img src={require('../assets/img___17.jpeg')} className='img__0' /> <i class="fa fa-search fa-3x"><FaSearch /></i> </div>
+                        <div className="col-md-2">
+                            <div className="Image__mag"> <img src={require('../assets/img___17.jpeg')} className='img__0' /> <i className="fa fa-search fa-3x"><FaSearch /></i> </div>
                         </div>
-                        <div class="col-md-2">
-                            <div class="Image__mag"> <img src={require('../assets/img___20.jpeg')} className='img__0' /> <i class="fa fa-search fa-3x"><FaSearch /></i> </div>
+                        <div className="col-md-2">
+                            <div className="Image__mag"> <img src={require('../assets/img___20.jpeg')} className='img__0' /> <i className="fa fa-search fa-3x"><FaSearch /></i> </div>
                         </div>
                     </div>
                 </div>
